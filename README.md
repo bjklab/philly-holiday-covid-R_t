@@ -25,7 +25,7 @@ follow suit</a>. The School District’s decision has
 <a href="https://www.inquirer.com/opinion/commentary/philly-schools-omicron-return-january-4-in-person-20220103.html">come
 under scrutiny</a> as COVID-19 cases have continued to rise locally
 (4119 observed cases on December 28, 2021, in contrast to model’s
-prediction of a peak 680 cases/day).
+predicted peak of 680 cases/day).
 
 I wanted to understand how <b>case backfill</b>, the process of updating
 COVID-19 daily case counts for up to a week after the initial daily case
@@ -49,7 +49,7 @@ best available data on the
 variant</a>, using the <a href="">EpiEstim R package</a>. The 95%
 confidence interval for R<sub>t</sub> is shown).
 
-A naive model for R<sub>t</sub> based on the most recent available data
-again suggests that R<sub>t</sub> is trending down… but this should not
-be cause for excess optimism in light of the <b>holiday backfill
-effect</b> seen last week!
+The same naive model for R<sub>t</sub> based on the most recent
+available data again suggests that R<sub>t</sub> is trending down… but
+this should not be cause for excess optimism in light of the <b>holiday
+backfill effect</b> seen last week.
