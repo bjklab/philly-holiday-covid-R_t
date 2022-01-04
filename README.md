@@ -17,26 +17,25 @@ effects over the prior 14 days.”
 
 This week, the Philadelphia School District
 <a href="https://twitter.com/SDPHite/status/1476929249407913986?s=20">based
-a plan to return to in-person school</a> on the CHOP Policy Lab’s 22
-December 2021
-<a href="https://twitter.com/PolicyLabCHOP/status/1478037201892122630?s=20">estimate
-that Philadelphia County COVID-19 R was declining, and that COVID-19
-cases would soon follow suit</a>. The School District’s decision has
+a plan to return to in-person school</a> on the
+<a href="https://twitter.com/PolicyLabCHOP/status/1478037201892122630?s=20">CHOP
+Policy Lab’s</a> 22 December 2021 model estimate that Philadelphia
+County COVID-19 R was declining, and that COVID-19 cases would soon
+follow suit</a>. The School District’s decision has
 <a href="https://www.inquirer.com/opinion/commentary/philly-schools-omicron-return-january-4-in-person-20220103.html">come
 under scrutiny</a> as COVID-19 cases have continued to rise locally
 (4119 observed cases on December 28, 2021, in contrast to model’s
 prediction of a peak 680 cases/day).
 
-I wanted to understand how <b>case backfill</b>, the process in which
-the Philadelphia Department of Public Health updates case totals for up
-to a week after the initial daily case count is recorded, might impact
-estimates of the COVID-19 reproductive number (R<sub>t</sub>) and
-predictions of future COVID-19 cases based on it. During the winter
-holiday season, short staffing may result in data entry and transfer
-delays that increase the impact of case backfill. To understand the
-holiday backfill effect, I compared the COVID-19 case data available for
-Philadelphia, Pennsylvania on 22 December 2021 to the case data
-available today, 3 January 2022:
+I wanted to understand how <b>case backfill</b>, the process of updating
+COVID-19 daily case counts for up to a week after the initial daily case
+counts are recorded, might impact estimates of the COVID-19 reproductive
+number (R<sub>t</sub>) and predictions of future COVID-19 incidence
+based on R<sub>t</sub>. During the winter holiday season, short staffing
+may result in data entry and transfer delays that increase the impact of
+case backfill. To understand the holiday backfill effect, I compared the
+COVID-19 case data available for Philadelphia, Pennsylvania on 22
+December 2021 to the case data available today, 3 January 2022:
 
 <img src="./figs/p_combined_tp.png" width="90%" style="display: block; margin: auto;" />
 
