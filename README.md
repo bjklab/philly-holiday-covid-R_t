@@ -3,9 +3,9 @@ Watch Out for the Case Backfill!
 Brendan J. Kelly, MD, MS
 
 The <a href="https://policylab.chop.edu/">CHOP Policy Lab</a> has
-provided valuable, epidemiology-based public policy counsel to federal,
-state, and local public health partners throughout the COVID-19
-pandemic, drawing on the
+provided valuable, epidemiology-based counsel to federal, state, and
+local public policy partners throughout the COVID-19 pandemic, drawing
+on the
 <a href="https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community">impressive
 suite of data visualization tools and models they have developed to
 predict COVID-19 case incidence and other outcomes</a> based on an
@@ -41,12 +41,13 @@ December 2021 to the case data available today, 3 January 2022:
 
 In the top panel, the comparison of incidence data demonstrates that
 <b>case backfill</b> significantly increased cases in the week prior to
-December 22, 2021. In the bottom panel, the effect of this
-under-reporting to skew R<sub>t</sub> below 1 can be seen.
-(R<sub>t</sub> was estimated using a mean serial interval of 2.2 days
-(SD 0.8 days), based on the best available data on the
+December 22, 2021. In the bottom panel, the effect of this missing data
+to skew R<sub>t</sub> below 1 can be seen. (R<sub>t</sub> was estimated
+using a mean serial interval of 2.2 days (SD 0.8 days), based on the
+best available data on the
 <a href="https://www.medrxiv.org/content/10.1101/2021.12.25.21268301v1">Omicron
-variant</a>, using the <a href="">EpiEstim R package</a>.
+variant</a>, using the <a href="">EpiEstim R package</a>. The 95%
+confidence interval for R<sub>t</sub> is shown).
 
 A naive model for R<sub>t</sub> based on the most recent available data
 again suggests that R<sub>t</sub> is trending down… but this should not
