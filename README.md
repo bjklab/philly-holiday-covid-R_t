@@ -11,15 +11,15 @@ suite of data visualization tools and models they have developed to
 predict COVID-19 case incidence</a> based on an estimate of the
 instantaneous reproduction number (R).
 
-This week, COVID-19 cases have continued to rise locally (4119 observed
-cases on December 28, 2021), in contrast to the CPL model’s predicted
-peak of 680 cases/day. I wanted to understand how <b>case backfill</b>,
-the process of updating COVID-19 daily case counts for up to a week
-after the initial daily case counts are recorded, might impact estimates
-of the COVID-19 reproductive number (R<sub>t</sub>) and predictions of
-future COVID-19 incidence based on R<sub>t</sub>. During the winter
-holiday season, short staffing may result in data entry and transfer
-delays that
+This week, COVID-19 cases have continued to rise in Philadelphia,
+Pennsylvania (4119 observed cases on December 28, 2021), in contrast to
+the CPL model’s predicted peak of 680 cases/day. I wanted to understand
+how <b>case backfill</b>, the process of updating COVID-19 daily case
+counts for up to a week after the initial daily case counts are
+recorded, might impact estimates of the COVID-19 reproductive number
+(R<sub>t</sub>) and predictions of future COVID-19 incidence based on
+R<sub>t</sub>. During the winter holiday season, short staffing may
+result in data entry and transfer delays that
 <a href="https://www.nytimes.com/interactive/2021/11/22/us/covid-data-holiday-averages.html">increase
 the impact of case backfill</a>. To understand the <b>holiday backfill
 effect</b>, I compared the COVID-19 case data available for
