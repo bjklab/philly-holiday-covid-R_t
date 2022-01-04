@@ -15,17 +15,9 @@ that includes county-level population density, 3-day average of social
 distancing, and lagged non-linear averaged historical temperatures
 effects over the prior 14 days.”
 
-This week, the Philadelphia School District
-<a href="https://twitter.com/SDPHite/status/1476929249407913986?s=20">based
-a plan to return to in-person school</a> on the
-<a href="https://twitter.com/PolicyLabCHOP/status/1478037201892122630?s=20">CHOP
-Policy Lab’s</a> 22 December 2021 model estimate that Philadelphia
-County COVID-19 R was declining, and that COVID-19 cases would soon
-follow suit</a>. The School District’s decision has
-<a href="https://www.inquirer.com/opinion/commentary/philly-schools-omicron-return-january-4-in-person-20220103.html">come
-under scrutiny</a> as COVID-19 cases have continued to rise locally
-(4119 observed cases on December 28, 2021, in contrast to model’s
-predicted peak of 680 cases/day).
+This week, COVID-19 cases have continued to rise locally (4119 observed
+cases on December 28, 2021), in contrast to model’s predicted peak of
+680 cases/day).
 
 I wanted to understand how <b>case backfill</b>, the process of updating
 COVID-19 daily case counts for up to a week after the initial daily case
