@@ -9,11 +9,7 @@ on the
 <a href="https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community">impressive
 suite of data visualization tools and models they have developed to
 predict COVID-19 case incidence</a> based on an estimate of the
-instantaneous reproduction number (R). In the CPL model, “the future R
-is estimated from an autoregressive linear mixed effects model that
-includes county-level population density, 3-day average of social
-distancing, and lagged non-linear averaged historical temperatures
-effects over the prior 14 days.”
+instantaneous reproduction number (R).
 
 This week, COVID-19 cases have continued to rise locally (4119 observed
 cases on December 28, 2021), in contrast to the CPL model’s predicted
