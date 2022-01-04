@@ -16,11 +16,11 @@ distancing, and lagged non-linear averaged historical temperatures
 effects over the prior 14 days.”
 
 This week, COVID-19 cases have continued to rise locally (4119 observed
-cases on December 28, 2021), in contrast to model’s predicted peak of
-680 cases/day. I wanted to understand how <b>case backfill</b>, the
-process of updating COVID-19 daily case counts for up to a week after
-the initial daily case counts are recorded, might impact estimates of
-the COVID-19 reproductive number (R<sub>t</sub>) and predictions of
+cases on December 28, 2021), in contrast to the CPL model’s predicted
+peak of 680 cases/day. I wanted to understand how <b>case backfill</b>,
+the process of updating COVID-19 daily case counts for up to a week
+after the initial daily case counts are recorded, might impact estimates
+of the COVID-19 reproductive number (R<sub>t</sub>) and predictions of
 future COVID-19 incidence based on R<sub>t</sub>. During the winter
 holiday season, short staffing may result in data entry and transfer
 delays that increase the impact of case backfill. To understand the
