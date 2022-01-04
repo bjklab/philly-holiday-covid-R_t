@@ -140,7 +140,7 @@ bind_rows(omi_old_R_est, omi_new_R_est) %>%
   geom_line(aes(x = date, y = median_r, color = data_source, group = data_source)) +
   geom_ribbon(aes(x = date, ymin = quantile_0_025_r, ymax = quantile_0_975_r, fill = data_source, group = data_source), alpha = 0.6) +
   #geom_lineribbon(aes(x = date, y = median_r, ymin = quantile_0_025_r, ymax = quantile_0_975_r, color = data_source, group = data_source, fill = data_source), alpha = 0.6) +
-  scale_x_date(date_labels = "%d %b<br>%Y", expand = c(0,0)) +
+  scale_x_date(date_labels = "%d %b<br>%Y", expand = c(0,0), date_minor_breaks = "1 day") +
   scale_color_okabe_ito() +
   scale_fill_okabe_ito() + 
   labs(y = "Estimated R<sub>t</sub>",
@@ -149,7 +149,7 @@ bind_rows(omi_old_R_est, omi_new_R_est) %>%
        title = "COVID-19 in Philadelphia, Pennsylvania",
        fill = "",
        color = "") +
-  theme_pub() +
+  theme_pub_fine() +
   theme(axis.text.x = ggtext::element_markdown(hjust = 1)) -> p_R_est_comparison
 p_R_est_comparison
 
@@ -163,16 +163,16 @@ bind_rows(omi_old_R_est, omi_new_R_est) %>%
   annotate(geom = "text", x = as.Date("2021-12-18"), y = 4000, color = "#E69F00", label = "Backfill Period", hjust = 0.6) +
   annotate(geom = "text", x = as.Date("2022-01-01"), y = 4000, color = "#56B4E9", label = "Backfill Period", hjust = 0.6) +
   geom_line(aes(x = date, y = incid, color = data_source, group = data_source), size = 2, alpha = 0.8) +
-  scale_x_date(date_labels = "%d %b<br>%Y", expand = c(0,0)) +
+  scale_x_date(date_labels = "%d %b<br>%Y", expand = c(0,0), date_minor_breaks = "1 day") +
   scale_color_okabe_ito() +
   scale_fill_okabe_ito() + 
-  labs(y = "Daily Case Incidence<br>(observed cases/day)",
+  labs(y = "Observed Cases / Day",
        x = "",
        title = "COVID-19 in Philadelphia, Pennsylvania",
        caption = "Incidence data from github.com/ambientpointcorp/covid19-philadelphia | R<sub>t</sub> via EpiEstim package <br> Analysis by @bjk_lab | Code available at github.com/bjklab/philly-holiday-covid-R_t",
        fill = "",
        color = "") +
-  theme_pub() +
+  theme_pub_fine() +
   theme(axis.text.x = ggtext::element_markdown(hjust = 1)) -> p_incid_comparison
 p_incid_comparison
 

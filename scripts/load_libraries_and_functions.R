@@ -65,6 +65,38 @@ theme_pub <- function() {
 }
 
 
+theme_pub_fine <- function() {
+  theme_bw(base_family = "Roboto") +
+    theme(panel.background = element_rect(fill = "white"),
+          panel.grid.minor = element_line(color = "grey79", size = 0.25),
+          panel.grid.major = element_line(color = "grey79", size = 0.75),
+          panel.border = element_rect(color = "black", size = 1),
+          axis.ticks = element_blank(),
+          strip.background = element_blank(),
+          strip.text = ggtext::element_markdown(color = "black"),
+          axis.text.x = ggtext::element_markdown(color = "black"),
+          axis.text.y = ggtext::element_markdown(color = "black"),
+          axis.title.x = ggtext::element_markdown(color = "black"),
+          axis.title.y = ggtext::element_markdown(color = "black"),
+          legend.title = ggtext::element_markdown(color = "black"),
+          legend.position = "bottom",
+          legend.margin = margin(t = 2, r = 2, b = 2, l = 2, unit = "pt"),
+          plot.title = ggtext::element_markdown(color = "black"),
+          plot.title.position = "plot",
+          plot.caption = ggtext::element_textbox_simple(size = 9,
+                                                        margin = unit(x = c(10,5,5,5), units = "pt"),
+                                                        padding = unit(x = c(3,2,2,3), units = "pt"),
+                                                        #box.colour = "black",
+                                                        #linetype = 1,
+                                                        #vjust = 0,
+                                                        fill = "white"
+          ),
+          plot.caption.position = "plot",
+          plot.background = element_rect(fill = "white", color = NA, size = 1)) # make color 'black' to frame
+}
+
+
+
 theme_grant <- function() {
   theme_bw(base_family = "Roboto") +
     theme(panel.background = element_rect(fill = "white"),
