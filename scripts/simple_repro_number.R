@@ -166,7 +166,7 @@ bind_rows(omi_old_R_est, omi_new_R_est) %>%
   scale_x_date(date_labels = "%d %b<br>%Y", expand = c(0,0)) +
   scale_color_okabe_ito() +
   scale_fill_okabe_ito() + 
-  labs(y = "New Case Incidence",
+  labs(y = "Daily Case Incidence<br>(observed cases/day)",
        x = "",
        title = "COVID-19 in Philadelphia, Pennsylvania",
        caption = "Incidence data from github.com/ambientpointcorp/covid19-philadelphia | R<sub>t</sub> via EpiEstim package <br> Analysis by @bjk_lab | Code available at github.com/bjklab/philly-holiday-covid-R_t",
