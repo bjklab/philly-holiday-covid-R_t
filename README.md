@@ -37,7 +37,7 @@ to skew R<sub>t</sub> below 1 can be seen. (R<sub>t</sub> was estimated
 using a mean serial interval of 2.2 days (SD 0.8 days), based on the
 best available data on the
 <a href="https://www.medrxiv.org/content/10.1101/2021.12.25.21268301v1">Omicron
-variant</a>, using the <a href="">EpiEstim R package</a>. The 95%
+variant</a>, via the <a href="">EpiEstim R package</a>. The 95%
 confidence interval for R<sub>t</sub> is shown).
 
 The same model for R<sub>t</sub> based on the most recent available data
