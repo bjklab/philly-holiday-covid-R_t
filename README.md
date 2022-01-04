@@ -43,11 +43,13 @@ available today, 3 January 2022:
 In the top panel, the comparison of incidence data demonstrates that
 <b>case backfill</b> significantly increased cases in the week prior to
 December 22, 2021. In the bottom panel, the effect of this
-under-reporting to skew R<sub>t</sub> (estimated using a
-<a href="https://www.medrxiv.org/content/10.1101/2021.12.25.21268301v1">omicron-based</a>
-mean serial interval of 2.2 days, SD 0.8 days) with the
-<a href="">EpiEstim R package</a>) below 1 can be seen. A naive model
-for R<sub>t</sub> using the most recent available data again suggests
-that R<sub>t</sub> is trending down… but this should not be cause for
-excess optimism because we’re still waiting on <b>case backfill</b> for
-the last week!
+under-reporting to skew R<sub>t</sub> below 1 can be seen.
+(R<sub>t</sub> was estimated using a mean serial interval of 2.2 days
+(SD 0.8 days), based on the best available data on the
+<a href="https://www.medrxiv.org/content/10.1101/2021.12.25.21268301v1">Omicron
+variant</a>, using the <a href="">EpiEstim R package</a>.
+
+A naive model for R<sub>t</sub> based on the most recent available data
+again suggests that R<sub>t</sub> is trending down… but this should not
+be cause for excess optimism in light of the <b>holiday backfill
+effect</b> seen last week!
