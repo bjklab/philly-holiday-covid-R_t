@@ -2,21 +2,13 @@ Watch Out for the Case Backfill!
 ================
 Brendan J. Kelly, MD, MS
 
-The <a href="https://policylab.chop.edu/">CHOP Policy Lab (CPL)</a> has
-provided valuable, epidemiology-based counsel to federal, state, and
-local public policy partners throughout the COVID-19 pandemic, drawing
-on the
-<a href="https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community">impressive
-suite of data visualization tools and models they have developed to
-predict COVID-19 case incidence</a> based on an estimate of the
-instantaneous reproduction number (R).
-
 This week, COVID-19 cases have continued to rise in Philadelphia,
-Pennsylvania (4119 observed cases on December 28, 2021), in contrast to
-the CPL model’s predicted peak of 680 cases/day. I wanted to understand
-how <b>case backfill</b>, the process of updating COVID-19 daily case
-counts for up to a week after the initial daily case counts are
-recorded, might impact estimates of the COVID-19 reproductive number
+Pennsylvania (4119 observed cases on December 28, 2021), despite
+<a href="https://policylab.chop.edu/covid-lab-mapping-covid-19-your-community">incidence
+modelling</a> that predicted a peak closer to 680 cases/day. I wanted to
+understand how <b>case backfill</b>, the process of updating COVID-19
+daily case counts for up to a week after the initial daily case counts
+are recorded, might impact estimates of the COVID-19 reproductive number
 (R<sub>t</sub>) and predictions of future COVID-19 incidence based on
 R<sub>t</sub>. During the winter holiday season, short staffing may
 result in data entry and transfer delays that
